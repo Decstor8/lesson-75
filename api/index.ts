@@ -2,7 +2,6 @@ import express, { Request, Response, NextFunction } from "express";
 const Vigenere = require("caesar-salad").Vigenere;
 const app = express();
 const port = 8000;
-
 app.use(express.json());
 
 app.use((req: Request, res: Response, next: NextFunction) => {

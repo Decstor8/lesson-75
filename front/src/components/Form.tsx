@@ -104,9 +104,10 @@ import './Form.css';
             onChange={(e) => setDecode(e.target.value)}
           />
         </div>
+        
         {<h1>{error && error}</h1>}
       </div>
     );
-  };
-
+};
+  
 export default Form;
